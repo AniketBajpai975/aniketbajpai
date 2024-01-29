@@ -1,0 +1,208 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/575f898d59.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="preloader"></div>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo-no-background (2).png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li> <a href="#about">About</a></li>
+                <li><a href="#services">Portfolio</a></li>
+                <li> <a href="#portfolio">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+           </ul>
+           <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Devloper</p>
+            <h1>Hello I'm <span>Aniket</span> <br> From India</h1>
+        </div>
+    </div>
+</div>
+<!---------ABOUT--------- ---->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/IMG_4822_magicstudio_3xp67ajqxyu.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title" >About Me</h1>
+                <p>Hello My name is Aniket, and I am Passionate about both backend and frontend development, I am a dynamic and driven individual with a profound love for crafting seamless and user-centric digital experiences. On the backend, I revel in the intricacies of server-side logic, databases, and system architecture, ensuring robust and efficient functionality that forms the backbone of any application Simultaneously, my enthusiasm extends to frontend development, where I harness the power of HTML, CSS, and JavaScript to bring designs to life and create engaging user interfaces. I find immense satisfaction in the artistry of turning conceptual ideas into visually appealing and intuitive user experiences With a keen eye for detail and a commitment to staying abreast of the latest industry trends, I constantly seek to strike the perfect balance between the server and the user's screen. My passion lies in the harmonious fusion of backend and frontend technologies, enabling me to contribute to the development of innovative and seamless digital solutions.</p>
+<div class="tab-titles">
+<p class="tab-links active-link" onclick="opentab('skills')"> Skills</p>
+<p class="tab-links"onclick="opentab('Projects')"> Projects</p>
+<p class="tab-links"onclick="opentab('Education')"> Education</p>
+</div>
+<div class="tab-contents active-tab"id="Skills">
+    <ul>
+        <li>
+            <span>Web Developer</span><br>work on the visual part of the website</li>
+            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+            <li><span>Game Development</span><br>Through Unity Engine</li>
+            <li><span>Java Developer</span><br>Performs a number of duties, from concept and design right through to testing, throughout the development lifecycle.</li>
+            <li><span>Python Developer</span><br>Assist organizations with their technological framework.</li>
+    </ul>
+</div>
+<div class="tab-contents" id="Projects">
+    <ul>
+        <li>
+            <span>Fruits & Vegetables Prediction Models</span><br> For our investigation, the proposed method looked at a few fruits, vegetables, and pulses.</li>
+            <li><span>Attendence Marking System</span><br>Identifying the students in a lecture will be done by a hardware device which is in the lecture rooms by fingerprints and rfid cards.</li>
+            <li><span>3D Car Racing</span><br>Made with Unity Engine by 3D vesion and lots of car Skin.</li>
+    </ul>
+</div>
+<div class="tab-contents" id="Education">
+    <ul>
+        <li>
+            <span>Btech</span><br>Lovely Professional University</li>
+            <li><span>Higher Secoundary</span><br>Central School HSS JAMUNA COLLIERY </li>
+            <li><span>Secondary School Certificate</span><br>KKSN</li>
+    </ul>
+</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------MY PROJECT---------- -->
+<div id="services">
+    <div class="container">
+    <h1 class="sub-title" >My Services</h1>
+    <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+    <h2>Web Design</h2>
+    <p>Web design is the art and science of creating visually appealing and user-friendly websites that effectively communicate a brand's identity and purpose.</p>
+
+</div> 
+<div>
+    <i class="fa-solid fa-gamepad"></i>
+    <h2>Game Development</h2>
+    <p>Game development is the process of creating interactive and immersive digital experiences, involving the design, programming, and implementation of video games. </p>
+    
+</div> 
+<div>
+    <i class="fa-brands fa-app-store"></i>
+    <h2>App Development</h2>
+    <p>App development involves the design, coding, and implementation of software applications for mobile devices or computers, addressing specific user needs and functionalities.</p>
+    
+</div>
+</div>
+</div>
+</div>
+<!---------------portfolio------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title" >My Projects</h1>
+        <div class="work-list">
+            <div class="project"><img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h1>Fruits & Vegetables Prediction Models</h1>
+                    <P>The proposed method employed a variety of variables, including ph, humidity, precipitation, temperature, and market pricing.</P>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project"><img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h1>Attendance Marking System</h1>
+                    <P>Identifying the students in a lecture will be done by a hardware device which is in the lecture rooms by fingerprints and rfid cards.</P>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project"><img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h1>3D Car Racing Game</h1>
+                    <P>Unity is a tool that provides game developers with a 2D and 3D platform to create video games.</P>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!---- --------------CONTACT------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> aniketbajpai48@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 6264114045</p>
+                <div class="social-icons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                <a href=""><i class="fa-brands fa-instagram "></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></i></a>
+            </div>
+            <a href="images/ANIKETBAJPAI.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                     <input type="text" name="Name" placeholder="Your Name" required>
+                     <input type="email" name="email" placeholder=" Your Email" required>
+                     <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                     <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){ 
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    } 
+    
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    // Use setTimeout to delay the display of the actual content
+    setTimeout(function() {
+        // Hide the preloader
+        document.getElementById("preloader").style.display = 'none';
+        
+        // Show the actual content
+        document.getElementById("load").style.display = 'block';
+    }, 1500); // 2000 milliseconds = 2 seconds
+    
+    
+</script>
+
+
+
+
+</body>
+</html>
